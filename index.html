@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Munkarend 2023</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="app.js"></script>
+</head>
+ 
+<body>
+  
+  <table id="left" border="1px" cellpadding="0" cellspacing="10">
+	<tr><td id="month" colspan="7" >Január</td></tr>
+	
+	<tr><td>H</td><td>K</td><td>Sz</td><td>Cs</td><td>P</td><td>Sz</td><td>V</td></tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td class="red">1</td></tr>
+    <tr>
+      <td class="ejjel">2</td>
+      <td class="ejjel">3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td class="nappal">7</td>
+      <td class="nappal">8</td></tr>
+    <tr>
+      <td class="nappal">9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+      <td class="ejjel">13</td>
+      <td class="ejjel">14</td>
+      <td class="ejjel">15</td></tr>
+    <tr>
+      <td>16</td>
+      <td>17</td>
+      <td>18</td>
+      <td class="nappal">19</td>
+      <td class="nappal">20</td>
+      <td class="nappal">21</td>
+      <td>22</td></tr>
+    <tr>
+      <td>23</td>
+      <td>24</td>
+      <td class="ejjel">25</td>
+      <td class="ejjel">26</td>
+      <td class="ejjel">27</td>
+      <td>28</td>
+      <td>29</td></tr>
+    <tr>
+      <td>30</td>
+      <td class="nappal">31</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td></tr>
+    </table>
+  
+  <table id="center" border="1px" cellpadding="0" cellspacing="10">
+	<tr><td id="month" colspan="7" >Február</td></tr>
+	
+	<tr><td>H</td><td>K</td><td>Sz</td><td>Cs</td><td>P</td><td>Sz</td><td>V</td></tr>
+	<tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td class="nappal">1</td>
+      <td class="nappal">2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td></tr>
+    <tr>
+      <td class="ejjel">6</td>
+      <td class="ejjel">7</td>
+      <td class="ejjel">8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td class="nappal">12</td></tr>
+    <tr>
+      <td class="nappal">13</td>
+      <td class="nappal">14</td>
+      <td>15</td>
+      <td>16</td>
+      <td>17</td>
+      <td class="ejjel">18</td>
+      <td class="ejjel">19</td></tr>
+    <tr>
+      <td class="ejjel">20</td>
+      <td>21</td>
+      <td>22</td>
+      <td>23</td>
+      <td class="nappal">24</td>
+      <td class="nappal">25</td>
+      <td class="nappal">26</td></tr>
+    <tr>
+      <td>27</td>
+      <td>28</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td></tr>
+    </table>
+  
+  <table id="right" border="1px" cellpadding="0" cellspacing="10">
+	<tr><td id="month" colspan="7" >Március</td></tr>
+	
+	<tr><td>H</td><td>K</td><td>Sz</td><td>Cs</td><td>P</td><td>Sz</td><td>V</td></tr>
+	<tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>1</td>
+      <td class="ejjel">2</td>
+      <td class="ejjel">3</td>
+      <td class="ejjel">4</td>
+      <td>5</td></tr>
+    <tr>
+      <td>6</td>
+      <td>7</td>
+      <td class="nappal">8</td>
+      <td class="nappal">9</td>
+      <td class="nappal">10</td>
+      <td>11</td>
+      <td>12</td></tr>
+    <tr>
+      <td>13</td>
+      <td class="szabi">14</td>
+      <td class="red">15</td>
+      <td class="ejjel">16</td>
+      <td>17</td>
+      <td>18</td>
+      <td>19</td></tr>
+    <tr>
+      <td class="nappal">20</td>
+      <td class="nappal">21</td>
+      <td class="nappal">22</td>
+      <td>23</td>
+      <td>24</td>
+      <td>25</td>
+      <td class="ejjel">26</td></tr>
+    <tr>
+      <td class="ejjel">27</td>
+      <td class="ejjel">28</td>
+      <td>29</td>
+      <td>30</td>
+      <td>31</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td></tr>
+    </table>
+  
+  <table id="left" border="1px" cellpadding="0" cellspacing="10">
+	<tr><td id="month" colspan="7" >Április</td></tr>
+	
+	<tr><td>H</td><td>K</td><td>Sz</td><td>Cs</td><td>P</td><td>Sz</td><td>V</td></tr>
+	<tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td class="nappal">1</td>
+      <td class="nappal">2</td></tr>
+    <tr>
+      <td class="nappal">3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td class="red">7</td>
+      <td class="szabi">8</td>
+      <td class="red">9</td></tr>
+    <tr>
+      <td class="red">10</td>
+      <td>11</td>
+      <td>12</td>
+      <td class="nappal">13</td>
+      <td class="nappal">14</td>
+      <td class="nappal">15</td>
+      <td>16</td></tr>
+    <tr>
+      <td>17</td>
+      <td>18</td>
+      <td class="ejjel">19</td>
+      <td class="ejjel">20</td>
+      <td class="ejjel">21</td>
+      <td>22</td>
+      <td>23</td></tr>
+    <tr>
+      <td>24</td>
+      <td class="nappal">25</td>
+      <td class="nappal">26</td>
+      <td class="nappal">27</td>
+      <td>28</td>
+      <td>29</td>
+      <td>30</td></tr>
+    </table>
+  
+  <table id="center" border="1px" cellpadding="0" cellspacing="10">
+	<tr><td id="month" colspan="7" >Május</td></tr>
+	
+	<tr><td>H</td><td>K</td><td>Sz</td><td>Cs</td><td>P</td><td>Sz</td><td>V</td></tr>
+	<tr>
+      <td class="red">1</td>
+      <td class="ejjel">2</td>
+      <td class="ejjel">3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td class="nappal">7</td></tr>
+    <tr>
+      <td class="nappal">8</td>
+      <td class="nappal">9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+      <td class="ejjel">13</td>
+      <td class="ejjel">14</td></tr>
+    <tr>
+      <td class="ejjel">15</td>
+      <td>16</td>
+      <td>17</td>
+      <td>18</td>
+      <td class="nappal">19</td>
+      <td class="nappal">20</td>
+      <td class="nappal">21</td></tr>
+    <tr>
+      <td>22</td>
+      <td>23</td>
+      <td>24</td>
+      <td class="ejjel">25</td>
+      <td class="ejjel">26</td>
+      <td class="szabi">27</td>
+      <td class="red">28</td></tr>
+    <tr>
+      <td class="red">29</td>
+      <td>30</td>
+      <td class="nappal">31</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td></tr>
+    </table>
+  
+  <table id="right" border="1px" cellpadding="0" cellspacing="10">
+	<tr><td id="month" colspan="7" >Június</td></tr>
+	
+	<tr><td>H</td><td>K</td><td>Sz</td><td>Cs</td><td>P</td><td>Sz</td><td>V</td></tr>
+	<tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td class="nappal">1</td>
+      <td class="nappal">2</td>
+      <td>3</td>
+      <td>4</td></tr>
+    <tr>
+      <td>5</td>
+      <td class="ejjel">6</td>
+      <td class="ejjel">7</td>
+      <td class="ejjel">8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td></tr>
+    <tr>
+      <td class="nappal">12</td>
+      <td class="nappal">13</td>
+      <td class="nappal">14</td>
+      <td>15</td>
+      <td>16</td>
+      <td>17</td>
+      <td class="ejjel">18</td></tr>
+    <tr>
+      <td class="ejjel">19</td>
+      <td class="ejjel">20</td>
+      <td>21</td>
+      <td>22</td>
+      <td>23</td>
+      <td class="nappal">24</td>
+      <td class="nappal">25</td></tr>
+    <tr>
+      <td class="nappal">26</td>
+      <td>27</td>
+      <td>28</td>
+      <td>29</td>
+      <td class="ejjel">30</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td></tr>
+    </table>
+  
+  <table id="left" border="1px" cellpadding="0" cellspacing="10">
+	<tr><td id="month" colspan="7" >Július</td></tr>
+	
+	<tr><td>H</td><td>K</td><td>Sz</td><td>Cs</td><td>P</td><td>Sz</td><td>V</td></tr>
+	<tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td class="ejjel">1</td>
+      <td class="ejjel">2</td></tr>
+    <tr>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td class="nappal">6</td>
+      <td class="nappal">7</td>
+      <td class="nappal">8</td>
+      <td>9</td></tr>
+    <tr>
+      <td>10</td>
+      <td>11</td>
+      <td class="ejjel">12</td>
+      <td class="ejjel">13</td>
+      <td class="ejjel">14</td>
+      <td>15</td>
+      <td>16</td></tr>
+    <tr>
+      <td>17</td>
+      <td class="nappal">18</td>
+      <td class="nappal">19</td>
+      <td class="nappal">20</td>
+      <td>21</td>
+      <td>22</td>
+      <td>23</td></tr>
+    <tr>
+      <td class="ejjel">24</td>
+      <td class="ejjel">25</td>
+      <td class="ejjel">26</td>
+      <td>27</td>
+      <td>28</td>
+      <td>29</td>
+      <td class="nappal">30</td></tr>
+    <tr>
+      <td class="nappal">31</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td></tr>
+    </table>
+  
+  <table id="center" border="1px" cellpadding="0" cellspacing="10">
+	<tr><td id="month" colspan="7" >Augusztus</td></tr>
+	
+	<tr><td>H</td><td>K</td><td>Sz</td><td>Cs</td><td>P</td><td>Sz</td><td>V</td></tr>
+	<tr>
+      <td>&nbsp;</td>
+      <td class="nappal">1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td class="ejjel">5</td>
+      <td class="ejjel">6</td></tr>
+    <tr>
+      <td class="ejjel">7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>10</td>
+      <td class="nappal">11</td>
+      <td class="nappal">12</td>
+      <td class="nappal">13</td></tr>
+    <tr>
+      <td>14</td>
+      <td>15</td>
+      <td>16</td>
+      <td class="ejjel">17</td>
+      <td class="ejjel">18</td>
+      <td class="szabi">19</td>
+      <td class="red">20</td></tr>
+    <tr>
+      <td>21</td>
+      <td>22</td>
+      <td class="nappal">23</td>
+      <td class="nappal">24</td>
+      <td class="nappal">25</td>
+      <td>26</td>
+      <td>27</td></tr>
+    <tr>
+      <td>28</td>
+      <td class="ejjel">29</td>
+      <td class="ejjel">30</td>
+      <td class="ejjel">31</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td></tr>
+    </table>
+  
+  <table id="right" border="1px" cellpadding="0" cellspacing="10">
+	<tr><td id="month" colspan="7" >Szeptember</td></tr>
+	
+	<tr><td>H</td><td>K</td><td>Sz</td><td>Cs</td><td>P</td><td>Sz</td><td>V</td></tr>
+	<tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td></tr>
+    <tr>
+      <td class="nappal">4</td>
+      <td class="nappal">5</td>
+      <td class="nappal">6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td class="ejjel">10</td></tr>
+    <tr>
+      <td class="ejjel">11</td>
+      <td class="ejjel">12</td>
+      <td>13</td>
+      <td>14</td>
+      <td>15</td>
+      <td class="nappal">16</td>
+      <td class="nappal">17</td></tr>
+    <tr>
+      <td class="nappal">18</td>
+      <td>19</td>
+      <td>20</td>
+      <td>21</td>
+      <td class="ejjel">22</td>
+      <td class="ejjel">23</td>
+      <td class="ejjel">24</td></tr>
+    <tr>
+      <td>25</td>
+      <td>26</td>
+      <td>27</td>
+      <td class="nappal">28</td>
+      <td class="nappal">29</td>
+      <td class="nappal">30</td>
+      <td>&nbsp;</td></tr>
+    </table>
+  
+  <table id="left" border="1px" cellpadding="0" cellspacing="10">
+	<tr><td id="month" colspan="7" >Október</td></tr>
+	
+	<tr><td>H</td><td>K</td><td>Sz</td><td>Cs</td><td>P</td><td>Sz</td><td>V</td></tr>
+	<tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>1</td></tr>
+    <tr>
+      <td>2</td>
+      <td>3</td>
+      <td class="ejjel">4</td>
+      <td class="ejjel">5</td>
+      <td class="ejjel">6</td>
+      <td>7</td>
+      <td>8</td></tr>
+    <tr>
+      <td>9</td>
+      <td class="nappal">10</td>
+      <td class="nappal">11</td>
+      <td class="nappal">12</td>
+      <td>13</td>
+      <td>14</td>
+      <td>15</td></tr>
+    <tr>
+      <td class="ejjel">16</td>
+      <td class="ejjel">17</td>
+      <td class="ejjel">18</td>
+      <td>19</td>
+      <td>20</td>
+      <td>21</td>
+      <td class="nappal">22</td></tr>
+    <tr>
+      <td class="red">23</td>
+      <td class="nappal">24</td>
+      <td>25</td>
+      <td>26</td>
+      <td>27</td>
+      <td class="ejjel">28</td>
+      <td class="ejjel">29</td></tr>
+    <tr>
+      <td class="ejjel">30</td>
+      <td>31</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td></tr>
+    </table>
+  
+  <table id="center" border="1px" cellpadding="0" cellspacing="10">
+	<tr><td id="month" colspan="7" >November</td></tr>
+	
+	<tr><td>H</td><td>K</td><td>Sz</td><td>Cs</td><td>P</td><td>Sz</td><td>V</td></tr>
+	<tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>1</td>
+      <td>2</td>
+      <td class="nappal">3</td>
+      <td class="nappal">4</td>
+      <td class="nappal">5</td></tr>
+    <tr>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td class="ejjel">9</td>
+      <td class="ejjel">10</td>
+      <td class="ejjel">11</td>
+      <td>12</td></tr>
+    <tr>
+      <td>13</td>
+      <td>14</td>
+      <td class="nappal">15</td>
+      <td class="nappal">16</td>
+      <td class="nappal">17</td>
+      <td>18</td>
+      <td>19</td></tr>
+    <tr>
+      <td>20</td>
+      <td class="ejjel">21</td>
+      <td class="ejjel">22</td>
+      <td class="ejjel">23</td>
+      <td>24</td>
+      <td>25</td>
+      <td>26</td></tr>
+    <tr>
+      <td class="nappal">27</td>
+      <td class="nappal">28</td>
+      <td class="nappal">29</td>
+      <td>30</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td></tr>
+    </table>
+  
+  <table id="right" border="1px" cellpadding="0" cellspacing="10">
+	<tr><td id="month" colspan="7" >December</td></tr>
+	
+	<tr><td>H</td><td>K</td><td>Sz</td><td>Cs</td><td>P</td><td>Sz</td><td>V</td></tr>
+	<tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>1</td>
+      <td>2</td>
+      <td class="ejjel">3</td></tr>
+    <tr>
+      <td class="ejjel">4</td>
+      <td class="ejjel">5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td class="nappal">9</td>
+      <td class="nappal">10</td></tr>
+    <tr>
+      <td class="nappal">11</td>
+      <td>12</td>
+      <td>13</td>
+      <td>14</td>
+      <td class="ejjel">15</td>
+      <td class="ejjel">16</td>
+      <td class="ejjel">17</td></tr>
+    <tr>
+      <td>18</td>
+      <td>19</td>
+      <td>20</td>
+      <td class="nappal">21</td>
+      <td class="nappal">22</td>
+      <td class="nappal">23</td>
+      <td>24</td></tr>
+    <tr>
+      <td class="red">25</td>
+      <td class="red">26</td>
+      <td class="szabi">27</td>
+      <td class="szabi">28</td>
+      <td class="szabi">29</td>
+      <td>30</td>
+      <td>31</td></tr>
+    </table>
+  
+</body>
+</html>

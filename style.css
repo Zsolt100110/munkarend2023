@@ -1,0 +1,138 @@
+body {
+  background-color: #FFFFCC;
+}
+tr, td {
+  border: 0px;
+  text-align: center;
+  color: #111111;
+}
+table {
+  border: 1px 1px 1px 1px;
+  background-color: #FFFFBB;
+  display: inline-table;
+}
+
+#center {
+  color: black;
+  width: 34%;
+  height: 350px;
+}
+
+#month {
+  font-weight: bolder;
+  color: #000000;
+}
+
+#left {
+  color: black;
+  width: 33%;
+  height: 350px;
+  float: left;
+  clear: left;
+  
+}
+#right {
+  color: black;
+  width: 33%;
+  height: 350px;
+  float: right;
+}
+ @media (min-width: 220px) {
+ .tr, td {
+  border: 0px;
+  text-align: center;
+  color: #111111;
+}
+  
+  #center {
+  color: black;
+  width: 99%;
+  height: 200px;
+}
+
+#month {
+  font-weight: bolder;
+  color: #000000;
+}
+
+#left {
+  color: black;
+  width: 99%;
+  height: 200px;
+  float: left;
+  clear: left;
+  
+}
+#right {
+  color: black;
+  width: 99%;
+  height: 200px;
+  float: none;
+}
+  table {
+  border: 1px 1px 1px 1px;
+  background-color: #FFFFBB;
+  display: inline-table;
+}
+
+}
+ @media (min-width: 642px) {
+  
+.tr, td {
+  border: 0px;
+  text-align: center;
+  color: #111111;
+}
+table {
+  border: 1px 1px 1px 1px;
+  background-color: #FFFFBB;
+  display: inline-table;
+}
+
+#center {
+  color: black;
+  width: 34%;
+  height: 350px;
+}
+
+#month {
+  font-weight: bolder;
+  color: #000000;
+}
+
+#left {
+  color: black;
+  width: 33%;
+  height: 350px;
+  float: left;
+  clear: left;
+  
+}
+#right {
+  color: black;
+  width: 33%;
+  height: 350px;
+  float: right;
+}
+}
+.nappal {
+  background-color: darkorange;
+  border-radius: 100%;
+}
+.ejjel {
+  background-color: dodgerblue;
+  border-radius: 100%;
+}
+.szabi {
+  background-color: rgba(0,255,0,0.4);
+  border-radius: 100px 0 100px 0;
+  font-style: oblique;
+  font-weight: bold;
+}
+.red {
+  background-color: rgba(255,0,0,0.7);
+  border-radius: 0 100px 0 100px;
+  font-style: italic; 
+  font-weight: bold;
+}
+
